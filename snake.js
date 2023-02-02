@@ -55,6 +55,7 @@ function draw() {
     canvasContext.font = "20px Arial"
     canvasContext.fillStyle = "#00FF42"
     canvasContext.fillText("Score: " + (snake.tail.length -1),canvas.width - 120, 18)
+    canvasContext.fillText("Made by bhavesh")
     createRect(apple.x, apple.y, apple.size, apple.size, apple.color)
 }
 
